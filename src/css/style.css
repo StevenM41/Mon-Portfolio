@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+     /* border: 1px solid red;  */
+}
+
+
+:root {
+    --bg-color: #12192C;
+    --dark-color: #414d6f;
+    --text-color: white;
+    --sub-color: #B6CEFC;
+}
+
+body {
+    background-color: var(--sub-color);
+    font-size: 10px;
+}
+
+.main-header {
+    background-color: var(--bg-color);
+    width: 100%;
+    height: auto;
+}
+
+.main-header .grid {
+    display: grid;
+    grid-template-columns: 20% 2px 54% 2px 12.5% 12.5%;
+    align-items: center;
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-header .grid .job_name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+    user-select: none;
+}
+
+.main-header .grid .job_name h1 {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.main-header .grid .job_name h2 {
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.main-header .grid .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto
+}
+
+.main-header .grid .links a {
+    display: flex;
+    height: 160px;
+    align-items: center;
+    width: 160px;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    text-decoration: none;
+    user-select: none;
+    padding: 0 45px;
+
+}
+
+.main-header .grid .links a:nth-of-type(3) {
+    width: 200px;
+}
+
+.main-header .grid .links a:nth-of-type(4) {
+    width: 280px;
+}
+
+.main-header .grid .links a:hover {
+    background-color: var(--dark-color);
+}
+
+.main-header .grid .links a i {
+    visibility: hidden;
+    position: absolute;
+}
+
+.main-header .grid .links a p {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.main-header .grid hr {
+    height: 60%;
+    width: 2px;
+    border: gray;
+    background-color: #808080;
+}
+
+.main-header .grid .coord {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.main-header .grid .coord a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-header .grid .coord a i {
+    font-size: 1.8rem;
+    margin: 0 15px;
+}
+
+.main-header .grid .coord a p {
+    font-weight: 600;
+}
+
+.main-header .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header .btn a {
+    border-radius: 25px;
+    background-color: transparent;
+    padding: 15px 25px;
+    position: relative;
+    border: 2px solid white;
+    text-decoration: none;
+}
+
+.main-header .btn a:hover {
+    background-color: white;
+    
+    p {
+        color: var(--bg-color);
+    }
+}
+
+.main-header .btn a i {
+    opacity: 0.3;
+    position: absolute;
+    color: var(--sub-color);
+    font-size: 2rem;
+    left: calc(50% - 12px);
+    top: calc(50% - 16px);
+    visibility: hidden;
+}
+
+.main-header .btn a p {
+    color: var(--text-color);
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.propo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.propo .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.propo .container .info {
+    display: flex;
+    flex-direction: row;
+}
+
+.propo .container .info i {
+    font-size: 45px;
+    color: var(--dark-color);
+    margin: 0 15px;
+}
+
+.propo .container .info h2 {
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    color: var(--dark-color);
+}
+
+.propo .container .info h2 span {
+    font-size: 2.2rem;
+    color: var(--bg-color);
+}
+
+.propo .container .sub-info {
+
+    
+    
+}
